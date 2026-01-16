@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Checkout - 1001 Pioneer AI" />
+    <title>Checkout - 1001 Pioneer AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <div class="checkout-wrapper">
+      <!-- Background Gradient -->
+      <div class="bg-gradient bg-gradient-top"></div>
+      <div class="bg-gradient bg-gradient-bottom"></div>
+      
+      <!-- Header -->
+      <header class="checkout-header">
+        <a href="index.html" class="checkout-logo">
+          <img src="img/logo.svg" alt="1001 Pioneer AI Logo" />
+        </a>
+        <h1 class="header-title">Checkout</h1>
+        <div class="header-spacer"></div>
+      </header>
+      
+      <!-- Main Content -->
+      <main class="checkout-main">
+        <div class="checkout-container">
+          <!-- Left Column - Order & Payment -->
+          <div class="checkout-left">
+            <!-- Course Card -->
+            <div class="checkout-card">
+              <div class="card-header">
+                <span class="card-step">1</span>
+                <h2 class="card-title">Detail Pesanan</h2>
+              </div>
+              <div class="card-body">
+                <div class="course-item">
+                  <div class="course-badge">MEMBERSHIP</div>
+                  <h3 class="course-title">1001 AI Pioneers</h3>
+                  <p class="course-desc">Akses penuh ke ekosistem tertutup untuk individu yang ingin menggunakan AI sampai batas maksimalnya.</p>
+                  
+                  <div class="course-features">
+                    <div class="feature-item">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                      <span>Akses komunitas eksklusif</span>
+                    </div>
+                    <div class="feature-item">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                      <span>Materi AI terbaru & praktikal</span>
+                    </div>
+                    <div class="feature-item">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                      <span>Diskusi dengan AI practitioners</span>
+                    </div>
+                    <div class="feature-item">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                      <span>Update & resource bulanan</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Payment Method -->
+            <div class="checkout-card">
+              <div class="card-header">
+                <span class="card-step">2</span>
+                <h2 class="card-title">Metode Pembayaran</h2>
+              </div>
+              <div class="card-body">
+                <div class="payment-methods-list">
+                  <!-- Bank Transfer -->
+                  <div class="payment-method-group">
+                    <p class="method-group-title">Bank Transfer</p>
+                    <div class="method-options">
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="bca" />
+                        <div class="method-content">
+                          <div class="method-icon bank-bca">BCA</div>
+                          <span class="method-name">Bank BCA</span>
+                        </div>
+                      </label>
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="bni" />
+                        <div class="method-content">
+                          <div class="method-icon bank-bni">BNI</div>
+                          <span class="method-name">Bank BNI</span>
+                        </div>
+                      </label>
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="mandiri" />
+                        <div class="method-content">
+                          <div class="method-icon bank-mandiri">MDR</div>
+                          <span class="method-name">Bank Mandiri</span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <!-- E-Wallet -->
+                  <div class="payment-method-group">
+                    <p class="method-group-title">E-Wallet</p>
+                    <div class="method-options">
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="gopay" />
+                        <div class="method-content">
+                          <div class="method-icon ewallet-gopay">GP</div>
+                          <span class="method-name">GoPay</span>
+                        </div>
+                      </label>
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="ovo" />
+                        <div class="method-content">
+                          <div class="method-icon ewallet-ovo">OVO</div>
+                          <span class="method-name">OVO</span>
+                        </div>
+                      </label>
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="dana" />
+                        <div class="method-content">
+                          <div class="method-icon ewallet-dana">DANA</div>
+                          <span class="method-name">DANA</span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <!-- QRIS -->
+                  <div class="payment-method-group">
+                    <p class="method-group-title">QRIS</p>
+                    <div class="method-options">
+                      <label class="method-option">
+                        <input type="radio" name="paymentMethod" value="qris" />
+                        <div class="method-content">
+                          <div class="method-icon qris">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                              <rect x="3" y="3" width="7" height="7"></rect>
+                              <rect x="14" y="3" width="7" height="7"></rect>
+                              <rect x="3" y="14" width="7" height="7"></rect>
+                              <rect x="14" y="14" width="7" height="7"></rect>
+                            </svg>
+                          </div>
+                          <span class="method-name">QRIS (Semua Aplikasi)</span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Payment Details (shown after selecting method) -->
+            <div class="checkout-card payment-details-card" id="paymentDetailsCard" style="display: none;">
+              <div class="card-header">
+                <span class="card-step">3</span>
+                <h2 class="card-title">Detail Pembayaran</h2>
+              </div>
+              <div class="card-body">
+                <!-- Bank Transfer Details -->
+                <div class="payment-detail bank-detail" id="bankDetail" style="display: none;">
+                  <div class="va-info">
+                    <p class="va-label">Nomor Virtual Account</p>
+                    <div class="va-number-wrapper">
+                      <span class="va-number" id="vaNumber">8277081234567890</span>
+                      <button class="copy-btn" onclick="copyVA()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>Salin</span>
+                      </button>
+                    </div>
+                    <p class="va-bank" id="vaBank">Bank BCA</p>
+                  </div>
+                  
+                  <div class="payment-instructions">
+                    <p class="instructions-title">Cara Pembayaran:</p>
+                    <ol class="instructions-list">
+                      <li>Buka aplikasi m-Banking atau ATM</li>
+                      <li>Pilih menu Transfer > Virtual Account</li>
+                      <li>Masukkan nomor Virtual Account di atas</li>
+                      <li>Pastikan nama dan jumlah sudah benar</li>
+                      <li>Konfirmasi pembayaran</li>
+                    </ol>
+                  </div>
+                </div>
+                
+                <!-- QRIS Details -->
+                <div class="payment-detail qris-detail" id="qrisDetail" style="display: none;">
+                  <div class="qris-wrapper">
+                    <div class="qris-code">
+                      <svg viewBox="0 0 100 100" class="qris-placeholder">
+                        <rect x="10" y="10" width="20" height="20" fill="currentColor"/>
+                        <rect x="70" y="10" width="20" height="20" fill="currentColor"/>
+                        <rect x="10" y="70" width="20" height="20" fill="currentColor"/>
+                        <rect x="35" y="10" width="10" height="10" fill="currentColor"/>
+                        <rect x="55" y="10" width="10" height="10" fill="currentColor"/>
+                        <rect x="10" y="35" width="10" height="10" fill="currentColor"/>
+                        <rect x="10" y="55" width="10" height="10" fill="currentColor"/>
+                        <rect x="35" y="35" width="30" height="30" fill="currentColor"/>
+                        <rect x="70" y="35" width="20" height="10" fill="currentColor"/>
+                        <rect x="70" y="55" width="10" height="10" fill="currentColor"/>
+                        <rect x="70" y="70" width="20" height="20" fill="currentColor"/>
+                        <rect x="35" y="70" width="10" height="20" fill="currentColor"/>
+                        <rect x="55" y="80" width="10" height="10" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    <p class="qris-text">Scan QR code dengan aplikasi e-wallet atau mobile banking</p>
+                  </div>
+                  
+                  <div class="payment-instructions">
+                    <p class="instructions-title">Cara Pembayaran:</p>
+                    <ol class="instructions-list">
+                      <li>Buka aplikasi e-wallet atau m-Banking</li>
+                      <li>Pilih menu Scan QR atau QRIS</li>
+                      <li>Arahkan kamera ke QR code di atas</li>
+                      <li>Pastikan jumlah sudah benar</li>
+                      <li>Konfirmasi pembayaran</li>
+                    </ol>
+                  </div>
+                </div>
+                
+                <!-- E-Wallet Details -->
+                <div class="payment-detail ewallet-detail" id="ewalletDetail" style="display: none;">
+                  <div class="ewallet-info">
+                    <p class="ewallet-label">Anda akan dialihkan ke aplikasi <span id="ewalletName">GoPay</span></p>
+                    <p class="ewallet-note">Pastikan saldo mencukupi sebelum melanjutkan</p>
+                  </div>
+                </div>
+                
+                <!-- Timer -->
+                <div class="payment-timer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Selesaikan pembayaran dalam <strong id="timerDisplay">23:59:59</strong></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Right Column - Summary -->
+          <div class="checkout-right">
+            <div class="checkout-card summary-card sticky-card">
+              <div class="card-header">
+                <h2 class="card-title">Ringkasan Pembayaran</h2>
+              </div>
+              <div class="card-body">
+                <!-- Billing Cycle -->
+                <div class="billing-options">
+                  <label class="billing-option active">
+                    <input type="radio" name="billing" value="monthly" checked />
+                    <div class="billing-content">
+                      <div class="billing-info">
+                        <span class="billing-label">Bulanan</span>
+                        <span class="billing-price">Rp 199.000<span class="billing-period">/bulan</span></span>
+                      </div>
+                    </div>
+                  </label>
+                  <label class="billing-option">
+                    <input type="radio" name="billing" value="yearly" />
+                    <div class="billing-content">
+                      <div class="billing-info">
+                        <span class="billing-label">Tahunan</span>
+                        <span class="billing-price">Rp 1.990.000<span class="billing-period">/tahun</span></span>
+                      </div>
+                      <span class="billing-badge">Hemat 17%</span>
+                    </div>
+                  </label>
+                </div>
+                
+                <!-- Promo Code -->
+                <div class="promo-section">
+                  <div class="promo-wrapper">
+                    <input 
+                      type="text" 
+                      id="promoCode" 
+                      class="promo-input" 
+                      placeholder="Kode promo"
+                    />
+                    <button type="button" class="promo-btn" onclick="applyPromo()">Terapkan</button>
+                  </div>
+                  <p class="promo-message" id="promoMessage"></p>
+                </div>
+                
+                <!-- Price Breakdown -->
+                <div class="price-breakdown">
+                  <div class="price-row">
+                    <span class="price-label">Harga membership</span>
+                    <span class="price-value" id="basePrice">Rp 199.000</span>
+                  </div>
+                  <div class="price-row discount" id="discountRow" style="display: none;">
+                    <span class="price-label">Diskon promo</span>
+                    <span class="price-value discount-value" id="discountAmount">- Rp 0</span>
+                  </div>
+                  <div class="price-divider"></div>
+                  <div class="price-row total">
+                    <span class="price-label">Total Pembayaran</span>
+                    <span class="price-value" id="totalPrice">Rp 199.000</span>
+                  </div>
+                </div>
+                
+                <!-- Checkout Button -->
+                <button type="button" class="btn-checkout" id="checkoutBtn" onclick="processCheckout()" disabled>
+                  <span class="btn-text">Bayar Sekarang</span>
+                  <span class="btn-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </span>
+                </button>
+                
+                <p class="checkout-note" id="checkoutNote">Pilih metode pembayaran terlebih dahulu</p>
+                
+                <!-- Secure Badge -->
+                <div class="secure-badge">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                  <span>Pembayaran aman & terenkripsi</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Terms -->
+            <p class="checkout-terms">
+              Dengan melanjutkan, kamu menyetujui <a href="#">Syarat & Ketentuan</a> dan <a href="#">Kebijakan Privasi</a> kami.
+            </p>
+          </div>
+        </div>
+      </main>
+      
+      <!-- Success Modal -->
+      <div class="modal-overlay" id="successModal" style="display: none;">
+        <div class="modal-content">
+          <div class="modal-icon success">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3 class="modal-title">Pembayaran Berhasil!</h3>
+          <p class="modal-text">Selamat! Kamu sekarang adalah bagian dari 1001 AI Pioneers. Cek email untuk detail akses.</p>
+          <a href="index.html" class="btn-modal">Kembali ke Beranda</a>
+        </div>
+      </div>
+      
+      <!-- Back Link -->
+      <div class="checkout-footer">
+        <a href="index.html" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Kembali ke Beranda</span>
+        </a>
+      </div>
+    </div>
+    
+    <script>
+      // Variables
+      let currentPrice = 199000;
+      let discount = 0;
+      let selectedMethod = null;
+      
+      // Elements
+      const billingOptions = document.querySelectorAll('.billing-option');
+      const methodOptions = document.querySelectorAll('.method-option');
+      const basePrice = document.getElementById('basePrice');
+      const totalPrice = document.getElementById('totalPrice');
+      const checkoutBtn = document.getElementById('checkoutBtn');
+      const checkoutNote = document.getElementById('checkoutNote');
+      const paymentDetailsCard = document.getElementById('paymentDetailsCard');
+      
+      // Billing option change
+      billingOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          billingOptions.forEach(opt => opt.classList.remove('active'));
+          this.classList.add('active');
+          this.querySelector('input').checked = true;
+          
+          const value = this.querySelector('input').value;
+          if (value === 'yearly') {
+            currentPrice = 1990000;
+            basePrice.textContent = 'Rp 1.990.000';
+          } else {
+            currentPrice = 199000;
+            basePrice.textContent = 'Rp 199.000';
+          }
+          updateTotal();
+        });
+      });
+      
+      // Payment method selection
+      methodOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          methodOptions.forEach(opt => opt.classList.remove('active'));
+          this.classList.add('active');
+          this.querySelector('input').checked = true;
+          
+          selectedMethod = this.querySelector('input').value;
+          showPaymentDetails(selectedMethod);
+          
+          // Enable checkout button
+          checkoutBtn.disabled = false;
+          checkoutNote.textContent = 'Klik tombol di atas untuk melanjutkan pembayaran';
+        });
+      });
+      
+      // Show payment details based on method
+      function showPaymentDetails(method) {
+        paymentDetailsCard.style.display = 'block';
+        
+        // Hide all details first
+        document.getElementById('bankDetail').style.display = 'none';
+        document.getElementById('qrisDetail').style.display = 'none';
+        document.getElementById('ewalletDetail').style.display = 'none';
+        
+        const bankMethods = ['bca', 'bni', 'mandiri'];
+        const ewalletMethods = ['gopay', 'ovo', 'dana'];
+        
+        if (bankMethods.includes(method)) {
+          document.getElementById('bankDetail').style.display = 'block';
+          const vaNumber = document.getElementById('vaNumber');
+          const vaBank = document.getElementById('vaBank');
+          
+          const bankNames = {
+            'bca': 'Bank BCA',
+            'bni': 'Bank BNI',
+            'mandiri': 'Bank Mandiri'
+          };
+          
+          const vaNumbers = {
+            'bca': '8277081234567890',
+            'bni': '8810081234567890',
+            'mandiri': '8900081234567890'
+          };
+          
+          vaBank.textContent = bankNames[method];
+          vaNumber.textContent = vaNumbers[method];
+        } else if (method === 'qris') {
+          document.getElementById('qrisDetail').style.display = 'block';
+        } else if (ewalletMethods.includes(method)) {
+          document.getElementById('ewalletDetail').style.display = 'block';
+          const ewalletNames = {
+            'gopay': 'GoPay',
+            'ovo': 'OVO',
+            'dana': 'DANA'
+          };
+          document.getElementById('ewalletName').textContent = ewalletNames[method];
+        }
+        
+        // Scroll to payment details
+        paymentDetailsCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      
+      // Copy VA number
+      function copyVA() {
+        const vaNumber = document.getElementById('vaNumber').textContent;
+        navigator.clipboard.writeText(vaNumber).then(() => {
+          alert('Nomor VA berhasil disalin!');
+        });
+      }
+      
+      // Promo code
+      function applyPromo() {
+        const promoCode = document.getElementById('promoCode').value.toUpperCase();
+        const promoMessage = document.getElementById('promoMessage');
+        const discountRow = document.getElementById('discountRow');
+        
+        const promoCodes = {
+          'PIONEER10': 0.1,
+          'AILAB20': 0.2,
+          'WELCOME': 0.15
+        };
+        
+        if (promoCodes[promoCode]) {
+          discount = promoCodes[promoCode];
+          discountRow.style.display = 'flex';
+          promoMessage.textContent = `Kode "${promoCode}" berhasil diterapkan!`;
+          promoMessage.className = 'promo-message success';
+        } else if (promoCode) {
+          discount = 0;
+          discountRow.style.display = 'none';
+          promoMessage.textContent = 'Kode promo tidak valid';
+          promoMessage.className = 'promo-message error';
+        } else {
+          discount = 0;
+          discountRow.style.display = 'none';
+          promoMessage.textContent = '';
+        }
+        
+        updateTotal();
+      }
+      
+      function updateTotal() {
+        const discountAmount = document.getElementById('discountAmount');
+        const discountValue = currentPrice * discount;
+        const total = currentPrice - discountValue;
+        
+        if (discount > 0) {
+          discountAmount.textContent = `- Rp ${discountValue.toLocaleString('id-ID')}`;
+        }
+        
+        totalPrice.textContent = `Rp ${total.toLocaleString('id-ID')}`;
+      }
+      
+      // Process checkout
+      function processCheckout() {
+        if (!selectedMethod) {
+          alert('Pilih metode pembayaran terlebih dahulu');
+          return;
+        }
+        
+        // Show success modal
+        document.getElementById('successModal').style.display = 'flex';
+      }
+      
+      // Timer countdown
+      function startTimer() {
+        let timeLeft = 24 * 60 * 60; // 24 hours in seconds
+        const timerDisplay = document.getElementById('timerDisplay');
+        
+        setInterval(() => {
+          if (timeLeft > 0) {
+            timeLeft--;
+            const hours = Math.floor(timeLeft / 3600);
+            const minutes = Math.floor((timeLeft % 3600) / 60);
+            const seconds = timeLeft % 60;
+            timerDisplay.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+          }
+        }, 1000);
+      }
+      
+      startTimer();
+    </script>
+  </body>
+</html>

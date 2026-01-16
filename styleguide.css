@@ -1,4 +1,5 @@
 :root {
+  /* Cyan Colors */
   --foundation-cyanlight: rgba(230, 253, 250, 1);
   --foundation-cyanlight-hover: rgba(217, 252, 248, 1);
   --foundation-cyanlight-active: rgba(176, 250, 240, 1);
@@ -9,6 +10,8 @@
   --foundation-cyandark-hover: rgba(0, 143, 124, 1);
   --foundation-cyandark-active: rgba(0, 107, 93, 1);
   --foundation-cyandarker: rgba(0, 83, 72, 1);
+  
+  /* Black Colors */
   --foundation-blacklight: rgba(230, 230, 230, 1);
   --foundation-blacklight-hover: rgba(217, 217, 217, 1);
   --foundation-blacklight-active: rgba(176, 176, 176, 1);
@@ -19,6 +22,8 @@
   --foundation-blackdark-hover: rgba(0, 0, 0, 1);
   --foundation-blackdark-active: rgba(0, 0, 0, 1);
   --foundation-blackdarker: rgba(0, 0, 0, 1);
+  
+  /* White Colors */
   --foundation-whitelight: rgba(255, 255, 255, 1);
   --foundation-whitelight-hover: rgba(255, 255, 255, 1);
   --foundation-whitelight-active: rgba(255, 255, 255, 1);
@@ -29,6 +34,8 @@
   --foundation-whitedark-hover: rgba(153, 153, 153, 1);
   --foundation-whitedark-active: rgba(115, 115, 115, 1);
   --foundation-whitedarker: rgba(89, 89, 89, 1);
+  
+  /* Grey Colors */
   --foundation-greylight: rgba(236, 236, 236, 1);
   --foundation-greylight-hover: rgba(226, 226, 226, 1);
   --foundation-greylight-active: rgba(196, 196, 196, 1);
@@ -39,8 +46,33 @@
   --foundation-greydark-hover: rgba(38, 38, 38, 1);
   --foundation-greydark-active: rgba(29, 29, 29, 1);
   --foundation-greydarker: rgba(22, 22, 22, 1);
+  
+  /* Other Colors */
   --foundation-white-netralnormal: rgba(255, 255, 255, 1);
   --foundation-primary-color-2normal: rgba(0, 238, 207, 1);
   --foundation-primary-colordarker: rgba(31, 11, 62, 1);
   --foundation-primary-colornormal: rgba(89, 30, 176, 1);
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(90deg, rgba(0, 83, 72, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  --gradient-price: linear-gradient(129deg, rgba(0, 0, 0, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  --gradient-border: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 60px;
+  --spacing-2xl: 100px;
+  
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
 }
