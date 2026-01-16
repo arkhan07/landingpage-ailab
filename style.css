@@ -1,8 +1,11 @@
 .element-pioneer-AI {
   position: relative;
-  width: 1440px;
-  height: 4526px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 4526px;
+  height: auto;
   background-color: var(--foundation-blacknormal);
+  margin: 0 auto;
 }
 
 .element-pioneer-AI .vector {
@@ -24,11 +27,13 @@
 .element-pioneer-AI .div {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   position: absolute;
   top: 96px;
-  left: calc(50.00% - 720px);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .element-pioneer-AI .section {
@@ -40,22 +45,27 @@
 
 .element-pioneer-AI .image-dekstop {
   position: absolute;
-  left: calc(50.00% - 720px);
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 9px;
-  width: 1440px;
-  height: 780px;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .element-pioneer-AI .frame {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   align-items: flex-start;
   gap: 40px;
   padding: 100px 135px 0px;
   position: absolute;
   top: -46px;
   left: 0;
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper {
@@ -121,13 +131,15 @@
 .element-pioneer-AI .section-2 {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: flex-start;
   gap: 30px;
   padding: 50px 135px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-4 {
@@ -220,7 +232,8 @@
 .element-pioneer-AI .frame-5 {
   display: flex;
   flex-direction: column;
-  width: 690px;
+  max-width: 690px;
+  width: 100%;
   align-items: flex-start;
   gap: 20px;
   position: relative;
@@ -330,13 +343,15 @@
 .element-pioneer-AI .div-wrapper {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: flex-start;
   gap: 40px;
   padding: 100px 250px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-9 {
@@ -469,13 +484,15 @@
 .element-pioneer-AI .section-4 {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   gap: 40px;
   padding: 100px 250px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-14 {
@@ -514,7 +531,8 @@
 .element-pioneer-AI .frame-9 {
   display: flex;
   flex-direction: column;
-  width: 662px;
+  max-width: 662px;
+  width: 100%;
   align-items: center;
   gap: 16px;
   padding: 35px 0px;
@@ -772,7 +790,8 @@
 
 .element-pioneer-AI .navbar {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 16px 50px;
@@ -802,6 +821,7 @@
       rgba(89, 30, 176, 0.1) 100%
     )
     1;
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .logo {
@@ -904,9 +924,12 @@
 
 .element-pioneer-AI {
   position: relative;
-  width: 1440px;
-  height: 4526px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 4526px;
+  height: auto;
   background-color: var(--foundation-blacknormal);
+  margin: 0 auto;
 }
 
 .element-pioneer-AI .vector {
@@ -928,11 +951,13 @@
 .element-pioneer-AI .div {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   position: absolute;
   top: 96px;
-  left: calc(50.00% - 720px);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .element-pioneer-AI .section {
@@ -944,22 +969,27 @@
 
 .element-pioneer-AI .image-dekstop {
   position: absolute;
-  left: calc(50.00% - 720px);
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 9px;
-  width: 1440px;
-  height: 780px;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .element-pioneer-AI .frame {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   align-items: flex-start;
   gap: 40px;
   padding: 100px 135px 0px;
   position: absolute;
   top: -46px;
   left: 0;
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper {
@@ -1025,13 +1055,15 @@
 .element-pioneer-AI .section-2 {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: flex-start;
   gap: 30px;
   padding: 50px 135px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-4 {
@@ -1124,7 +1156,8 @@
 .element-pioneer-AI .frame-5 {
   display: flex;
   flex-direction: column;
-  width: 690px;
+  max-width: 690px;
+  width: 100%;
   align-items: flex-start;
   gap: 20px;
   position: relative;
@@ -1237,13 +1270,15 @@
 .element-pioneer-AI .div-wrapper {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: flex-start;
   gap: 40px;
   padding: 100px 250px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-9 {
@@ -1376,13 +1411,15 @@
 .element-pioneer-AI .section-4 {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   gap: 40px;
   padding: 100px 250px;
   position: relative;
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .text-wrapper-14 {
@@ -1421,7 +1458,8 @@
 .element-pioneer-AI .frame-9 {
   display: flex;
   flex-direction: column;
-  width: 662px;
+  max-width: 662px;
+  width: 100%;
   align-items: center;
   gap: 16px;
   padding: 35px 0px;
@@ -1697,7 +1735,8 @@
 
 .element-pioneer-AI .navbar {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 16px 50px;
@@ -1727,6 +1766,7 @@
       rgba(89, 30, 176, 0.1) 100%
     )
     1;
+  box-sizing: border-box;
 }
 
 .element-pioneer-AI .logo {
