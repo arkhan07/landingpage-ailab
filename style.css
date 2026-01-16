@@ -135,6 +135,8 @@
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
   box-sizing: border-box;
+  box-shadow: 0 0 0 100vw var(--foundation-whitenormal);
+  clip-path: inset(0 -100vw);
 }
 
 .element-pioneer-AI .text-wrapper-4 {
@@ -348,6 +350,8 @@
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
   box-sizing: border-box;
+  box-shadow: 0 0 0 100vw var(--foundation-whitenormal);
+  clip-path: inset(0 -100vw);
 }
 
 .element-pioneer-AI .text-wrapper-9 {
@@ -488,6 +492,8 @@
   flex: 0 0 auto;
   background-color: var(--foundation-whitenormal);
   box-sizing: border-box;
+  box-shadow: 0 0 0 100vw var(--foundation-whitenormal);
+  clip-path: inset(0 -100vw);
 }
 
 .element-pioneer-AI .text-wrapper-14 {
@@ -743,6 +749,8 @@
   width: 100%;
   background-color: var(--foundation-blacknormal);
   box-sizing: border-box;
+  box-shadow: 0 0 0 100vw var(--foundation-blacknormal);
+  clip-path: inset(0 -100vw);
 }
 
 .element-pioneer-AI .element-AI-lab-all {
@@ -824,7 +832,7 @@
       0,
       0,
       0.07
-    );
+    ), 0 0 0 100vw var(--foundation-greydark-active);
   backdrop-filter: blur(1.3px) brightness(100.0%) saturate(100.0%);
   -webkit-backdrop-filter: blur(1.3px) brightness(100.0%) saturate(100.0%);
   border-image: linear-gradient(
@@ -834,6 +842,7 @@
     )
     1;
   box-sizing: border-box;
+  clip-path: inset(0 -100vw);
 }
 
 .element-pioneer-AI .logo {
