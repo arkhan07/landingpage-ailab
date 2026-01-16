@@ -39,29 +39,37 @@
   position: relative;
   align-self: stretch;
   width: 100%;
-  height: 1052px;
+  height: auto;
+  min-height: 900px;
 }
 
 .element-pioneer-AI .image-dekstop {
   position: absolute;
-  left: 0;
-  bottom: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
   width: 100%;
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .element-pioneer-AI .frame {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 100px 135px 0px;
+  max-width: 800px;
+  align-items: center;
+  gap: 20px;
+  padding: 80px 20px 0px;
   position: absolute;
-  top: -46px;
-  left: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
 }
 
 .element-pioneer-AI .text-wrapper {
@@ -70,14 +78,13 @@
   align-items: flex-end;
   justify-content: center;
   align-self: stretch;
-  margin-top: -1.00px;
   font-family: "DM Sans-Bold", Helvetica;
   font-weight: 700;
   color: var(--foundation-cyannormal);
-  font-size: 72px;
+  font-size: 64px;
   text-align: center;
   letter-spacing: -3.60px;
-  line-height: 72px;
+  line-height: 1.1;
 }
 
 .element-pioneer-AI .text-wrapper-2 {
@@ -89,18 +96,19 @@
   font-family: "DM Sans-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 32px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 63px;
+  line-height: 1.3;
+  margin-top: 10px;
 }
 
 .element-pioneer-AI .halaman-ini-tidak {
   font-family: "DM Sans-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 1.6;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -108,15 +116,17 @@
   align-self: stretch;
   text-align: center;
   letter-spacing: 0;
+  margin-top: 15px;
+  max-width: 700px;
 }
 
 .element-pioneer-AI .span {
   font-family: "DM Sans-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0;
-  line-height: 35px;
+  line-height: 1.6;
 }
 
 .element-pioneer-AI .text-wrapper-3 {
